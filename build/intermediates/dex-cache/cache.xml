@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Sanidhya\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\24.0.0\2943c74db6d4346ab8c6531adac91fa05c137c40\support-annotations-24.0.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="E:\android_project\ToDoLIST\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_a658662bbe462702e1c90d212438575b18cc6ccf.jar" />
+    </item>
+    <item
+        jar="E:\android_project\ToDoLIST\app\build\intermediates\exploded-aar\com.android.support\design\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="E:\android_project\ToDoLIST\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.0.0_b7bce3fd5949c8c1ca438a56c29695b047b2cc97.jar" />
+    </item>
+    <item
+        jar="E:\android_project\ToDoLIST\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="E:\android_project\ToDoLIST\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_4cc960b247d3066e49ffa384974dad0430f46610.jar" />
+    </item>
+    <item
+        jar="E:\android_project\ToDoLIST\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="E:\android_project\ToDoLIST\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.0.0_2df422cafc918b2922fe5f11aa68d456a28e5924.jar" />
+    </item>
+    <item
+        jar="E:\android_project\ToDoLIST\app\libs\joda-time-2.9.4.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="1c295b462f16702ebe720bbb08f62e1ba80da41b">
+        <dex dex="E:\android_project\ToDoLIST\app\build\intermediates\pre-dexed\debug\joda-time-2.9.4_7bbb21ffacaa5eb152b0aef8fae3af963a65589f.jar" />
+    </item>
+    <item
+        jar="E:\android_project\ToDoLIST\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="E:\android_project\ToDoLIST\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.0.0_6bea7a96862d9992c4c998914354460f1892c3f9.jar" />
+    </item>
+    <item
+        jar="E:\android_project\ToDoLIST\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="E:\android_project\ToDoLIST\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.0.0_7404b538013b7ed1777ae6f68e6772d545bd1546.jar" />
+    </item>
+    <item
+        jar="E:\android_project\ToDoLIST\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="E:\android_project\ToDoLIST\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.0.0_13743d5808979be2cde7982860b14127aff63b84.jar" />
+    </item>
+    <item
+        jar="E:\android_project\ToDoLIST\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="E:\android_project\ToDoLIST\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_cb915ff4776492bce8829ea50fe58338843be67f.jar" />
+    </item>
+    <item
+        jar="E:\android_project\ToDoLIST\app\build\intermediates\exploded-aar\com.kovachcode\timePickerWithSeconds\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="2b06abfc704d9f8fc5e751efd7cfbf6f4200e2a7">
+        <dex dex="E:\android_project\ToDoLIST\app\build\intermediates\pre-dexed\debug\com.kovachcode-timePickerWithSeconds-1.0.0_2b78eac66272a8ac107ac5d2a9be764ff0fe3aba.jar" />
+    </item>
+
+</items>

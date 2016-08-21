@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task Title:"
+        android:textColor="#000000"
+        android:id="@+id/alert_task_name_tv"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="task title"
+        android:layout_toRightOf="@+id/alert_task_name_tv"
+        android:gravity="center"
+        android:id= "@+id/alert_task_name_et"
+        android:layout_alignBaseline="@+id/alert_task_name_tv"
+        android:textSize="20sp"
+        android:padding="10dp"
+        />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deadline:"
+        android:inputType="date"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/alert_task_finish_date_b"
+        android:padding="10dp"
+        android:layout_below="@+id/alert_task_name_tv"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="dd-mm-yy"
+        android:inputType="date"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/alert_task_finish_date_et"
+        android:padding="10dp"
+        android:layout_alignLeft="@+id/alert_task_name_et"
+        android:layout_alignBaseline="@+id/alert_task_finish_date_b"
+        android:layout_below="@+id/alert_task_name_tv"
+        android:layout_toRightOf="@+id/alert_task_finish_date_b" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alert_task_finish_date_b"
+        android:padding="10dp"
+        android:text="Set Alarm"
+        android:id="@+id/alert_task_alarm_cb"/>
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Set alarm time"
+       android:padding="10dp"
+       android:visibility="visible"
+       android:id="@+id/alert_task_alarm_time_b"
+       android:layout_below="@+id/alert_task_alarm_cb"
+       android:gravity="center"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:padding="10dp"
+        android:hint="hh:mm:ss "
+        android:id="@+id/alert_task_alarm_time_et"
+        android:layout_alignBottom="@+id/alert_task_alarm_time_b"
+        android:visibility="visible"
+        android:layout_marginLeft="10dp"
+         android:layout_toRightOf="@+id/alert_task_alarm_time_b"
+        />
+
+
+</RelativeLayout>

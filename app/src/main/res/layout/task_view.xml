@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Task"
+        android:id="@+id/task_view_tv" />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="15dp"
+    android:layout_toLeftOf="@+id/create_view_tv"
+    android:text="Created On:"
+    android:id="@+id/createdate" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/createdate"
+        android:text="date"
+        android:id="@+id/create_view_tv" />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="15dp"
+        android:layout_alignStart="@+id/createdate"
+    android:layout_toLeftOf="@+id/finish_view_tv"
+    android:layout_alignBottom="@+id/finish_view_tv"
+    android:text="Finish By:"
+    android:id="@+id/finishdate"
+        android:layout_alignLeft="@+id/createdate" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/task_view_tv"
+        android:text="date"
+        android:id="@+id/finish_view_tv" />
+
+
+
+</RelativeLayout>
